@@ -1,4 +1,5 @@
-If you just want to use the AI and see what it generates then first open and modify 'GAN Training.py' for where you saved the dataset. then run 'GAN Training.py' and after it has trained and saved the AI model run ganTest.py it should work. if you want to create and train your own AI based on
+If you just want to use the AI and see what it generates then first go to https://www.kaggle.com/arnaud58/selfie2anime
+then once you do that take 1746 images from the folder called trainB. and put in into a new folder. then link that file path in 'GAN training.py' then run 'GAN Training.py' and after it has trained and saved the AI model run ganTest.py it should work and produce a color image. if you want to create and train your own AI based on
 My code then go in to GAN Training.py and take a look at it then do whatever modifications you need.
 
 This uses Python 3.79 64bit requires Tesnorflow 2, heras, matplotlib and numpy.
