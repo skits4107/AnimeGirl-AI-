@@ -13,7 +13,7 @@ import time
 from IPython import display
 from keras import backend as K
 #change datadir to the folder of the dataset
-DATADIR = "C:/Users/Jimi/Desktop/Anime AI/datasets/AnimeGirls"
+DATADIR = "C:/Users/Jimi/Desktop/Anime AI/datasets/AnimeGirls"  # make sure that you use / and not \
 
 CATAGORIES = ["1"] #just used for counting in a for loop. i was too lazy to get rid of it and change the for loop.
 training_data = []
